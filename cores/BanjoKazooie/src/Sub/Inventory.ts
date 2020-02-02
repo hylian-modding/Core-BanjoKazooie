@@ -1,4 +1,4 @@
-import * as API from '../../API/BK/Imports';
+import * as API from '../../API/Imports';
 
 export class Inventory extends API.BaseObj implements API.IInventory {
   private inst: number = global.ModLoader[API.AddressType.INVENTORY];

@@ -5,7 +5,7 @@ import {
     ModLoaderEvents,
 } from 'modloader64_api/IModLoaderAPI';
 import { IRomHeader } from 'modloader64_api/IRomHeader';
-import * as API from './API/BK/Imports';
+import * as API from './API/Imports';
 import * as CORE from './src/Imports';
 
 export class BanjoKazooie implements ICore, API.IBKCore {

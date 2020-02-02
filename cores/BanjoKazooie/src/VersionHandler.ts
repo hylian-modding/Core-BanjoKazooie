@@ -1,4 +1,4 @@
-import * as API from '../API/BK/Imports';
+import * as API from '../API/Imports';
 
 export namespace VersionHandler {
   export function load_jp_1_0() {

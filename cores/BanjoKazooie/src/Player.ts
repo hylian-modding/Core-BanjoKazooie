@@ -1,4 +1,4 @@
-import * as API from '../API/BK/Imports';
+import * as API from '../API/Imports';
 
 export class Player extends API.BaseObj implements API.IPlayer {
   private inst: number = global.ModLoader[API.AddressType.PLAYER];

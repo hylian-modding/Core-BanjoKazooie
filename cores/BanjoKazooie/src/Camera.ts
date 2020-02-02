@@ -1,4 +1,4 @@
-import * as API from '../API/BK/Imports';
+import * as API from '../API/Imports';
 
 export class Camera extends API.BaseObj implements API.ICamera {
   private inst: number = global.ModLoader[API.AddressType.CAMERA];

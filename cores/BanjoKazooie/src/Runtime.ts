@@ -1,4 +1,4 @@
-import * as API from '../API/BK/Imports';
+import * as API from '../API/Imports';
 
 export class Runtime extends API.BaseObj implements API.IRuntime {
   private cur_events_level_addr =
