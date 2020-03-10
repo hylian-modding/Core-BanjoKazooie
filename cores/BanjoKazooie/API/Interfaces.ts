@@ -67,6 +67,7 @@ export interface IPlayer {
   rot_z: number;
   scale: number;
   visible: boolean;
+  visible_parts: Buffer;
 }
 
 export interface IRuntime {
